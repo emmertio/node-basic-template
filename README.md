@@ -11,3 +11,9 @@ When building developing build tools, it is useful to have an example app to bui
 ## How does it work?
 
 http://localhost:1337 will display a placeholder message, prompting the user to install their own app instead of the default template. The message also shows the timestamp.
+
+## Features
+
+-   Configured for TypeScript
+-   MomentJS as an example external dependency
+-   Serves the error message with Node's built-in `http` module
